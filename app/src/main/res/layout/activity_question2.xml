@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="#F0F4F8"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:padding="32dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="140dp"
+            android:layout_height="140dp"
+            android:src="@drawable/investment_logo"
+            android:layout_marginBottom="24dp" />
+
+        <TextView
+            android:text="2. Qual é a sua tolerância a riscos financeiros?"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:textColor="#2A2E43"
+            android:gravity="center"
+            android:layout_marginBottom="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <RadioGroup
+            android:id="@+id/radioGroup2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/rb4"
+                android:text="Baixa"
+                android:textSize="18sp"
+                android:padding="12dp" />
+
+            <RadioButton
+                android:id="@+id/rb5"
+                android:text="Moderada"
+                android:textSize="18sp"
+                android:padding="12dp" />
+
+            <RadioButton
+                android:id="@+id/rb6"
+                android:text="Alta"
+                android:textSize="18sp"
+                android:padding="12dp" />
+        </RadioGroup>
+
+        <Button
+            android:id="@+id/btnNext2"
+            android:text="Próxima"
+            android:textSize="18sp"
+            android:layout_marginTop="32dp"
+            android:layout_width="250dp"
+            android:layout_height="56dp"
+            android:background="@drawable/button_rounded"
+            android:textColor="#FFFFFF" />
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="#F0F4F8"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:padding="32dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="140dp"
+            android:layout_height="140dp"
+            android:src="@drawable/investment_logo"
+            android:layout_marginBottom="24dp" />
+
+        <TextView
+            android:id="@+id/textResult"
+            android:text="Seu perfil de investidor é: Dinâmico"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="#2A2E43"
+            android:gravity="center"
+            android:layout_marginBottom="32dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/btnEmail"
+            android:text="Enviar resultado por e-mail"
+            android:textSize="18sp"
+            android:layout_width="250dp"
+            android:layout_height="56dp"
+            android:background="@drawable/button_rounded"
+            android:textColor="#FFFFFF" />
+    </LinearLayout>
+</ScrollView>

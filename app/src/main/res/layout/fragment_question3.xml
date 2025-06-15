@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="#F0F4F8"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:padding="32dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="140dp"
+            android:layout_height="140dp"
+            android:src="@drawable/investment_logo"
+            android:layout_marginBottom="24dp" />
+
+        <TextView
+            android:text="3. Qual seu nível de conhecimento sobre investimentos?"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:textColor="#2A2E43"
+            android:gravity="center"
+            android:layout_marginBottom="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:id="@+id/editKnowledge"
+            android:hint="Digite: básico, intermediário ou avançado"
+            android:textSize="18sp"
+            android:padding="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#6200EE"
+            android:background="@android:drawable/editbox_background_normal" />
+
+        <Button
+            android:id="@+id/btnFinish"
+            android:text="Ver resultado"
+            android:textSize="18sp"
+            android:layout_marginTop="32dp"
+            android:layout_width="250dp"
+            android:layout_height="56dp"
+            android:background="@drawable/button_rounded"
+            android:textColor="#FFFFFF" />
+    </LinearLayout>
+</ScrollView>

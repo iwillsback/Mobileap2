@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="#F0F4F8"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:padding="48dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <!-- Logo / Imagem topo -->
+        <ImageView
+            android:layout_width="180dp"
+            android:layout_height="180dp"
+            android:src="@drawable/investment_logo"
+            android:contentDescription="Logo Investimentos"
+            android:layout_marginBottom="32dp"
+            android:scaleType="fitCenter" />
+
+        <!-- Título principal -->
+        <TextView
+            android:text="Descubra Seu Perfil de Investidor"
+            android:textSize="32sp"
+            android:textStyle="bold"
+            android:textColor="#2A2E43"
+            android:layout_marginBottom="16dp"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <!-- Subtítulo -->
+        <TextView
+            android:text="Responda algumas perguntas rápidas e saiba qual o perfil ideal para você."
+            android:textSize="18sp"
+            android:textColor="#5A6270"
+            android:gravity="center"
+            android:layout_marginBottom="48dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <!-- Botão estilizado -->
+        <Button
+            android:id="@+id/btnStart"
+            android:text="Começar Agora"
+            android:textSize="20sp"
+            android:textAllCaps="false"
+            android:layout_width="250dp"
+            android:layout_height="56dp"
+            android:backgroundTint="#FF6F61"
+            android:textColor="#FFFFFF"
+            android:elevation="8dp"
+            android:fontFamily="sans-serif-medium"
+            android:letterSpacing="0.05"
+            android:stateListAnimator="@null"
+            android:shape="rectangle"
+            android:background="@drawable/button_rounded" />
+
+    </LinearLayout>
+
+</ScrollView>
